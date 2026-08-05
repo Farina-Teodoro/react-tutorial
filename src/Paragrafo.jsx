@@ -3,7 +3,7 @@ function Paragrafo() {
     return (
     <>
         <p>Parágrafo explicativo</p>
-        <p><img src={messi}/></p>
+        <p><img src={messi} width={150} height={150}/></p>   
     </>
 )     
 }
