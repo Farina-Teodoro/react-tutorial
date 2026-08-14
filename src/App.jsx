@@ -7,7 +7,7 @@ import Paragrafo from './Paragrafo.jsx'
 import CaixaTexto from './CaixaTexto.jsx'
 
 function App() {
-  const [num, setNum] = useState(1)
+  const [num] = useState(1)
 
   return (
     <>
