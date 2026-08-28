@@ -6,7 +6,7 @@ import AppTarefas from './AppTarefas.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AppTarefas />
-    {/* <App /> */}
+    {/* <AppTarefas /> */}
+    <App />
   </StrictMode>,      
 )
