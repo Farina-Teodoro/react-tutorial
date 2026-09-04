@@ -5,6 +5,8 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Paragrafo from './Paragrafo.jsx'
 import CaixaTexto from './CaixaTexto.jsx'
+import { ThemeProvider } from './contexts/ThemeContexts.jsx'
+import {ThemeToggleButton} from './components/ThemeToggleButton.jsx'
 
 function App() {
   const [num] = useState(1)
