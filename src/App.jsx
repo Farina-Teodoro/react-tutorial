@@ -29,6 +29,8 @@ function App() {
             <Route path="/tarefas" element={<AppTarefas />} />
             <Route path="/usuarios" element={<Usuarios />} />
             <Route path="/sobre" element={<Sobre />} />
+
+            <Route path="/usuarios/:id" element={<Usuarios />} />
           </Routes>
         </div>
       </BrowserRouter>
